@@ -64,16 +64,16 @@ label #btn,label #cancel{
   cursor: pointer;
 }
 label #btn{
-  left: 40px;
+  left: 20px;
   top: 25px;
-  font-size: 35px;
+  font-size: 20px;
   color: white;
   padding: 6px 12px;
   transition: all .5s;
 }
 label #cancel{
   z-index: 1111;
-  left: -90%;
+  left: -70%;
   top: 80px;
   font-size: 30px;
   color: #0a5275;
@@ -84,12 +84,12 @@ label #cancel{
   left: 0;
 }
 #check:checked ~ label #btn{
-  left: 250px;
+  left: 230px;
   opacity: 0;
   pointer-events: none;
 }
 #check:checked ~ label #cancel{
-  left: 90%;
+  left: 70%;
 }
 #check:checked ~ section{
   margin-left: 250px;
@@ -110,7 +110,7 @@ section{
 }
 button{
     width: 80%;
-    height: 200px;
+    height: 150px;
     border-radius: 5px;
     color: white;
     outline: none;
@@ -128,7 +128,7 @@ button{
     
 }
 #b3{
-    background: rgb(216, 216, 13);
+    background: maroon;
     
 }
 #b4{
