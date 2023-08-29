@@ -73,7 +73,7 @@ label #btn{
 }
 label #cancel{
   z-index: 1111;
-  left: 0%;
+  left: -10%;
   top: 80px;
   font-size: 20px;
   color: #0a5275;
@@ -89,7 +89,7 @@ label #cancel{
   pointer-events: none;
 }
 #check:checked ~ label #cancel{
-  left: 0%;
+  left: 10%;
 }
 #check:checked ~ section{
   margin-left: 250px;
