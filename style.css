@@ -32,7 +32,7 @@ h1{
   color: white;
   line-height: 70px;
   text-align: center;
-  background: navy;
+  background: dark;
   user-select: none;
 }
 .sidebar ul a{
@@ -73,7 +73,7 @@ label #btn{
 }
 label #cancel{
   z-index: 1111;
-  left: -40%;
+  left: -80%;
   top: 80px;
   font-size: 20px;
   color: #0a5275;
@@ -89,7 +89,7 @@ label #cancel{
   pointer-events: none;
 }
 #check:checked ~ label #cancel{
-  left: 10%;
+  left: 80%;
 }
 #check:checked ~ section{
   margin-left: 250px;
