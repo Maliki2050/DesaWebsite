@@ -21,10 +21,10 @@ h1{
 }
 .sidebar {
   position: fixed;
-  left: -40%;
-  width: 40%;
+  left: -30%;
+  width: 30%;
   height: 100%;
-  background: rgba(44,62,100);
+  background: rgba(47,65,150);
   transition: all .5s ease;
 }
 .sidebar header {
@@ -73,7 +73,7 @@ label #btn{
 }
 label #cancel{
   z-index: 1111;
-  left: -10%;
+  left: -80%;
   top: 80px;
   font-size: 20px;
   color: #0a5275;
@@ -84,12 +84,12 @@ label #cancel{
   left: 0;
 }
 #check:checked ~ label #btn{
-  left: 210px;
+  left: 10%;
   opacity: 1;
   pointer-events: none;
 }
 #check:checked ~ label #cancel{
-  left: 10%;
+  left: 80%;
 }
 #check:checked ~ section{
   margin-left: 250px;
