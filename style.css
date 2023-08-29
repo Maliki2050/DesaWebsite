@@ -21,8 +21,8 @@ h1{
 }
 .sidebar {
   position: fixed;
-  left: -50%;
-  width: 50%;
+  left: -40%;
+  width: 40%;
   height: 100%;
   background: rgba(44,62,100);
   transition: all .5s ease;
@@ -64,32 +64,32 @@ label #btn,label #cancel{
   cursor: pointer;
 }
 label #btn{
-  left: 20px;
+  left: 50px;
   top: 25px;
-  font-size: 20px;
+  font-size: 40px;
   color: white;
-  padding: 6px 12px;
+  padding: 8px 14px;
   transition: all .5s;
 }
 label #cancel{
   z-index: 1111;
-  left: -40%;
+  left: -10%;
   top: 80px;
-  font-size: 30px;
+  font-size: 20px;
   color: #0a5275;
-  padding: 3px 9px;
+  padding: 2px 6px;
   transition: all .5s ease;
 }
 #check:checked ~ .sidebar{
   left: 0;
 }
 #check:checked ~ label #btn{
-  left: 230px;
-  opacity: 0;
+  left: 210px;
+  opacity: 1;
   pointer-events: none;
 }
 #check:checked ~ label #cancel{
-  left: 70%;
+  left: 10%;
 }
 #check:checked ~ section{
   margin-left: 250px;
